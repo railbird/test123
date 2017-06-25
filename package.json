@@ -1,0 +1,20 @@
+{
+  "name": "scraperv2",
+  "version": "1.0.1",
+  "description": "scrape company information from target site and write in database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scrape"
+  ],
+  "author": "O.S.",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.8",
+    "request": "^2.81.0"
+  }
+}
